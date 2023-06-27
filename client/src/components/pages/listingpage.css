@@ -1,0 +1,40 @@
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.categories li {
+  background-color: #bdebec;
+  color: rgb(22, 21, 21);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0.9, 0.7, 0.7);
+  margin-right: 5px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 10px;
+}
+
+.category-link {
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .categories {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.home-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  background-image: url('https://yt3.googleusercontent.com/ytc/AL5GRJUwkl_3w9jQlklTjWKh94BcLGeXcMOhE_qcCHJZkg=s900-c-k-c0x00ffffff-no-rj');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color:#9DB2BF ;
+}
+
+.button-overlay {
+  position:fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button{
+  color:black;
+  background-color:wheat;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+
