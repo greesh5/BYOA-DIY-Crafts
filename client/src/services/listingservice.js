@@ -57,7 +57,7 @@ export const deleteListing = async (craftId, token) => {
 
 export const getCurrentUser = async (token) => {
   try {
-    const response = await axios.get('http://localhost:8000/api/auth/current', {
+    const response = await axios.get('https://diycrafts.onrender.com/api/auth/current', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
