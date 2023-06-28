@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const AuthContext = createContext();
-const API_BASE_URL = 'http://localhost:8000/api/auth';
+const API_BASE_URL = 'https://diycrafts.onrender.com/api/auth';
 
 const AuthProvider = ({ children }) => {
     const navigate = useNavigate();

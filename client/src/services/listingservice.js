@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8000/api/craft';
+const BASE_URL = 'https://diycrafts.onrender.com/api/craft';
 
 export const getAllCategories = async (token) => {
   try {
