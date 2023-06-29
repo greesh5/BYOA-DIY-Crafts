@@ -23,7 +23,6 @@ const craftSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    required:true
   },
   video: {
     type: String,
